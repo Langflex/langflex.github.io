@@ -64,18 +64,20 @@ function Landing() {
             marginTop: "25px",
           }}
         >
-          <video
-            src="/FULL_CLIP_DEMO_FIXED.mp4"
-            controls
-            width="100%"
+          <iframe
+            width="370px"
+            height="220px"
+            src="https://www.youtube.com/embed/CJyefZYkaPM"
+            title="LangFlex Demo Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
             style={{
               borderRadius: "5px",
               maxWidth: "800px",
               marginTop: "20px",
             }}
-          >
-            Your browser does not support the video tag.
-          </video>
+          ></iframe>
         </section>
         {/* Features Section */}
         <section className="features fade-in">

@@ -448,3 +448,12 @@ html, body {
 
   }
 }
+
+
+.ggvid {
+  max-height: 300px !important;
+}
+
+.ggdiv {
+  max-height: 300px !important;
+}
